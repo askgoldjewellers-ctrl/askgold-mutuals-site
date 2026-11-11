@@ -48,9 +48,9 @@ function page() {
   return `
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="#home" aria-label="Ask Gold Studio home">
+        <a class="brand" href="#home" aria-label="Ask Jewellers Studio home">
           <span class="brand-mark" aria-hidden="true">A</span>
-          <span>ask gold<span class="brand-light"> studio</span></span>
+          <span>ask jewellers<span class="brand-light"> studio</span></span>
         </a>
         <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
         <nav class="main-nav" id="main-nav" aria-label="Main navigation">
@@ -66,16 +66,16 @@ function page() {
     <main>
       <section class="hero section-wrap" id="home">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> Imitation jewellery, made for your moments</p>
+          <p class="eyebrow"><span></span> Imitation jewellersy, made for your moments</p>
           <h1>A little extra<br>looks good <em>on you.</em></h1>
           <p class="hero-description">Discover feel-good finishing touches for everyday plans and big celebrations. Shop a look to keep, or enquire about renting a statement style.</p>
           <div class="hero-actions">
             <a class="button button-dark" href="#collections">Explore collections <span aria-hidden="true">↗</span></a>
             <a class="button button-outline" href="#rentals">Discover rentals</a>
           </div>
-          <p class="material-note"><span aria-hidden="true">✦</span> Fashion jewellery only — not solid gold or fine jewellery.</p>
+          <p class="material-note"><span aria-hidden="true">✦</span> Fashion jewellersy only — not solid jewellers or fine jewellersy.</p>
         </div>
-        <div class="hero-visual" role="img" aria-label="Decorative illustration of statement jewellery">
+        <div class="hero-visual" role="img" aria-label="Decorative illustration of statement jewellersy">
           <div class="visual-caption"><span>THE STYLE EDIT</span><span>01 / 03</span></div>
           <div class="hero-jewels" aria-hidden="true">
             <span class="hero-hoop hoop-left"></span>
@@ -101,7 +101,7 @@ function page() {
 
       <section class="section section-wrap collections-section" id="collections">
         <div class="section-heading">
-          <div><p class="eyebrow eyebrow-small">Find your kind of sparkle</p><h2>Jewellery for every kind of plan.</h2></div>
+          <div><p class="eyebrow eyebrow-small">Find your kind of sparkle</p><h2>Jewellersy for every kind of plan.</h2></div>
           <p>Browse a few style directions, then ask us about the pieces, prices, and availability.</p>
         </div>
         <div class="collection-grid">${collections.map(collectionCard).join("")}</div>
@@ -136,8 +136,8 @@ function page() {
           <h2>Style should feel<br><em>easy to say yes to.</em></h2>
         </div>
         <div class="about-copy">
-          <p>Ask Gold Studio is a storefront concept for imitation jewellery you can enquire about buying or renting. We want every piece to be clear about what it is, what it costs, and what to expect.</p>
-          <div class="clarity-note"><span aria-hidden="true">✳</span><p><strong>No fine-jewellery confusion.</strong><br>Our offer is imitation fashion jewellery. Materials and finishes can vary by piece, so please check the listing details before ordering.</p></div>
+          <p>Ask Jewellers Studio is a storefront concept for imitation jewellersy you can enquire about buying or renting. We want every piece to be clear about what it is, what it costs, and what to expect.</p>
+          <div class="clarity-note"><span aria-hidden="true">✳</span><p><strong>No fine-jewellersy confusion.</strong><br>Our offer is imitation fashion jewellersy. Materials and finishes can vary by piece, so please check the listing details before ordering.</p></div>
         </div>
       </section>
 
@@ -145,7 +145,7 @@ function page() {
         <div class="section-wrap faq-layout" id="faqs">
           <div><p class="eyebrow eyebrow-small">Good to know</p><h2>Questions, answered.</h2><p>Need details about a particular style? Send us an enquiry and tell us what you’re looking for.</p></div>
           <div class="faq-list">
-            <details><summary>Is this real gold or fine jewellery?</summary><p>No. This is imitation fashion jewellery, not solid gold or fine jewellery. Specific materials and finishes should be confirmed for each piece.</p></details>
+            <details><summary>Is this real jewellers or fine jewellersy?</summary><p>No. This is imitation fashion jewellersy, not solid jewellers or fine jewellersy. Specific materials and finishes should be confirmed for each piece.</p></details>
             <details><summary>How much does a piece cost to buy or rent?</summary><p>Prices are not listed in this preview. Ask about a style and confirm the current purchase price or rental quote before you decide.</p></details>
             <details><summary>How do rental bookings work?</summary><p>Availability, dates, deposit (if any), care instructions, and return arrangements need to be confirmed for each rental before booking.</p></details>
             <details><summary>Does this website send my enquiry?</summary><p>Not yet. This is a front-end preview and its enquiry form does not send or save your details. Contact information and a working enquiry service need to be added before launch.</p></details>
@@ -179,11 +179,11 @@ function page() {
 
     <footer class="site-footer">
       <div class="footer-inner section-wrap">
-        <a class="brand brand-footer" href="#home" aria-label="Ask Gold Studio home"><span class="brand-mark" aria-hidden="true">A</span><span>ask gold<span class="brand-light"> studio</span></span></a>
-        <p>Imitation jewellery to buy or rent.<br>Choose a look. Ask for the details.</p>
+        <a class="brand brand-footer" href="#home" aria-label="Ask Jewellers Studio home"><span class="brand-mark" aria-hidden="true">A</span><span>ask jewellers<span class="brand-light"> studio</span></span></a>
+        <p>Imitation jewellersy to buy or rent.<br>Choose a look. Ask for the details.</p>
         <a class="footer-link" href="#enquire">Make an enquiry <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="footer-bottom section-wrap"><span>© 2026 Ask Gold Studio</span><span>Imitation fashion jewellery · Not fine gold or precious jewellery</span></div>
+      <div class="footer-bottom section-wrap"><span>© 2026 Ask Jewellers Studio</span><span>Imitation fashion jewellersy · Not fine jewellers or precious jewellersy</span></div>
     </footer>`;
 }
 
