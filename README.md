@@ -1,6 +1,6 @@
-# AskGold Mutuals
+# Adorn Studio
 
-A responsive, static replica of the AskGold Mutuals website. It uses hash-based navigation, so all pages work on GitHub Pages without server-side routing.
+A responsive, static storefront concept for imitation jewellery sales and rentals. It uses in-page navigation and can be hosted on GitHub Pages.
 
 ## Preview locally
 
@@ -16,11 +16,10 @@ Then open <http://localhost:4173>.
 
 Push this folder to a GitHub repository, then open **Settings → Pages** and select **Deploy from a branch**, the branch you pushed, and the repository root (`/`). GitHub Pages will publish `index.html` and the bundled assets.
 
-## Pages and interactions
+## Sections and interactions
 
-- Home, plans, and in-page sections
-- About, sign up, sign in, and cart
-- Add/remove plans in a cart saved in the browser
-- Cookie-consent choice saved in the browser
+- Home, collections, rental steps, about, and FAQs
+- Collection actions prefill a buy/rent enquiry form
+- The enquiry form is a front-end demonstration and does not send or store submissions
 
-Account forms are front-end demonstrations only. They do not create accounts, submit personal information, or process payments. Connect a secure backend and payment provider before accepting real customers.
+Before launch, replace the sample collection names and artwork with real inventory, add verified prices and rental terms, and connect the enquiry form to a business email, phone, or booking service. The site explicitly describes the jewellery as imitation and does not promise gold content, stock, pricing, deposits, or delivery terms.
