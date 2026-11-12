@@ -1,6 +1,6 @@
-# Adorn Studio
+# ASK JEWELLERS
 
-A responsive, static storefront concept for imitation jewellery sales and rentals. It uses in-page navigation and can be hosted on GitHub Pages.
+A responsive, static catalogue for imitation jewellery sales and rentals. The catalogue links to product detail views using query URLs and can be hosted on GitHub Pages.
 
 ## Preview locally
 
@@ -18,8 +18,8 @@ Push this folder to a GitHub repository, then open **Settings → Pages** and se
 
 ## Sections and interactions
 
-- Home, collections, rental steps, about, and FAQs
-- Collection actions prefill a buy/rent enquiry form
+- Home, product catalogue, rental steps, about, and FAQs
+- Product details display fixed selling prices and UI-only Buy Now and Rent Now buttons
 - The enquiry form is a front-end demonstration and does not send or store submissions
 
-Before launch, replace the sample collection names and artwork with real inventory, add verified prices and rental terms, and connect the enquiry form to a business email, phone, or booking service. The site explicitly describes the jewellery as imitation and does not promise gold content, stock, pricing, deposits, or delivery terms.
+Product detail URLs use `?product=<product-id>`. The three current listings use supplied photos, with fixed prices of ₹12,500, ₹25,500, and ₹29,500. Buy and rent buttons are presentation-only. Rental availability and terms must be confirmed separately. The site identifies the items as imitation jewellery and does not promise gold content, stock, deposits, or delivery terms.
